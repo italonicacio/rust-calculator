@@ -44,7 +44,7 @@ fn main() {
     let op  = &args[1];
     let y: f64 = args[2].parse().unwrap();
     
-    let resutl = match op.as_str() {
+    let result = match op.as_str() {
         "+" => sum(x, y),
         "-" => subtraction(x, y),
         "/" => division(x, y),
@@ -55,6 +55,6 @@ fn main() {
 
     println!("x: {}", x);
     println!("y: {}", y);
-    println!("x {} y = {}", op, resutl);
+    println!("x {} y = {}", op, result);
     
 }
