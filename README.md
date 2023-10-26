@@ -8,7 +8,7 @@ A simple calculator to study rust.
 cargo run -- <number> <operation> <number>
 ```
 
-> operation = {+, -, /, *}
+> operation = {+, -, /, *, ^}
 
 ### Examples
 
